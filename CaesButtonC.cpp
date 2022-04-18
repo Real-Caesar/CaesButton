@@ -33,7 +33,6 @@ void CaesButton::update(bool enableTick) {
           singleFlag = true;
         }
         if (holdingTime > _TIMEOUT) {
-        Serial.println("Click");
           holdFlag = true;
         }
       }
